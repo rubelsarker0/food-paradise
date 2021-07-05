@@ -7,6 +7,104 @@ body {
 	font-family: 'Roboto Slab', serif;
 }
 
-body img {
-	width: 500px;
+/********* Header Section CSS ********/
+
+.header-section {
+	padding: 30px 0;
+}
+
+.flexible-container {
+	display: flex;
+	align-items: center;
+	margin: 5%;
+}
+
+.left-section {
+	margin-right: 50px;
+	width: 50%;
+}
+
+.left-section h1 {
+	font-size: 50px;
+	margin-bottom: 25px;
+	color: gray;
+}
+
+.left-section h1 span {
+	color: orange;
+}
+.left-section p {
+	font-size: 20px;
+	color: grey;
+	margin-bottom: 50px;
+	text-align: justify;
+}
+
+#order-food-btn a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 16px 50px;
+	background-image: linear-gradient(to right, red, orange);
+	border-radius: 30px;
+	font-weight: 600;
+	transition: 0.5s;
+}
+
+#order-food-btn a:hover {
+	background-image: linear-gradient(to right, orange, red);
+}
+
+.right-section {
+	width: 50%;
+}
+
+.right-section img {
+	width: 100%;
+}
+
+/******* About Me style *******/
+
+.about-me {
+	background-size: cover;
+	background-image: url(../images/shapes/Frame\ 58.jpg);
+	background-repeat: no-repeat;
+	padding: 30px 0;
+}
+
+.about-left {
+	width: 50%;
+	margin-right: 50px;
+}
+.about-left img {
+	width: 80%;
+}
+
+.about-right {
+	width: 50%;
+}
+
+.about-right h1 {
+	font-size: 30px;
+	padding-bottom: 25px;
+}
+
+.about-right p {
+	font: 20px;
+	text-align: justify;
+	margin-bottom: 50px;
+}
+
+#contact-me-btn a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 16px 50px;
+	background-image: linear-gradient(to left, orange, red);
+	border-radius: 30px;
+	font-weight: 500;
+	transition: 0.5s;
+}
+#contact-me-btn a:hover {
+	background-image: linear-gradient(to left, red, orange);
 }
