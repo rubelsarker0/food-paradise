@@ -16,6 +16,39 @@ body {
 	margin: 100px auto;
 	border-radius: 20px;
 }
+
+/********* Navbar section CSS *********/
+
+header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 10px 10%;
+}
+
+.logo-img {
+	cursor: pointer;
+	margin-right: auto;
+}
+
+.nav-links {
+	list-style: none;
+}
+
+.nav-links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav-links li a {
+	transition: all 0.3s ease 0s;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.nav-links li a:hover {
+	color: #e74c3c;
+}
 /********* Header Section CSS ********/
 
 .header-section {
