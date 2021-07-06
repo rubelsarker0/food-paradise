@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 	margin: 0px;
 }
+
 body {
 	font-family: 'Roboto Slab', serif;
 	background-image: url(../images/shapes/cool-background.png);
@@ -52,6 +53,9 @@ body {
 	border-radius: 30px;
 	font-weight: 600;
 	transition: all 0.5s ease 0s;
+	box-shadow: rgba(231, 76, 60, 0.4) 0px 5px, rgba(230, 126, 34, 0.3) 0px 10px,
+		rgba(231, 76, 60, 0.2) 0px 15px, rgba(231, 76, 60, 0.1) 0px 20px,
+		rgba(231, 76, 60, 0.05) 0px 25px;
 }
 #order-food-btn a:hover {
 	background-image: linear-gradient(to right, orange, red);
@@ -100,6 +104,9 @@ body {
 	border-radius: 30px;
 	font-weight: 500;
 	transition: all 0.5s ease 0s;
+	box-shadow: rgba(231, 76, 60, 0.4) 0px 5px, rgba(230, 126, 34, 0.3) 0px 10px,
+		rgba(231, 76, 60, 0.2) 0px 15px, rgba(231, 76, 60, 0.1) 0px 20px,
+		rgba(231, 76, 60, 0.05) 0px 25px;
 }
 #contact-me-btn a:hover {
 	background-image: linear-gradient(to left, red, orange);
@@ -128,7 +135,9 @@ body {
 	margin: 30px;
 	padding: 30px;
 	border-radius: 10px;
-	box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+	box-shadow: 5px 5px rgba(0, 98, 90, 0.4), 10px 10px rgba(0, 98, 90, 0.3),
+		15px 15px rgba(0, 98, 90, 0.2), 20px 20px rgba(0, 98, 90, 0.1),
+		25px 25px rgba(0, 98, 90, 0.05);
 	transition: all 0.3s ease 0s;
 	width: 40%;
 }
@@ -152,8 +161,10 @@ body {
 	display: flex;
 	justify-content: space-around;
 	border-radius: 10px;
-	box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
 	margin: 12px 10px;
+	box-shadow: 5px 5px rgba(0, 98, 90, 0.4), 10px 10px rgba(0, 98, 90, 0.3),
+		15px 15px rgba(0, 98, 90, 0.2), 20px 20px rgba(0, 98, 90, 0.1),
+		25px 25px rgba(0, 98, 90, 0.05);
 }
 section.social-follower {
 	margin: 75px 25px;
@@ -222,6 +233,9 @@ footer p {
 	background: #00cec9;
 	border-radius: 30px;
 	font-weight: 500;
+	box-shadow: rgba(0, 98, 90, 0.4) 0px 5px, rgba(0, 98, 90, 0.3) 0px 10px,
+		rgba(0, 98, 90, 0.2) 0px 15px, rgba(0, 98, 90, 0.1) 0px 20px,
+		rgba(0, 98, 90, 0.05) 0px 25px;
 }
 .get-started-btn {
 	width: 100%;
