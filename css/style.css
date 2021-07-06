@@ -182,24 +182,6 @@ section.social-follower {
 	color: rgb(102, 102, 102);
 }
 
-/******* Footer CSS *******/
-
-footer {
-	padding: 50px;
-	background-color: black;
-	text-align: center;
-}
-footer h1 {
-	color: gray;
-	padding-bottom: 20px;
-}
-footer h1 span {
-	color: orange;
-}
-footer p {
-	color: white;
-}
-
 /********* Create plan CSS ********/
 
 .create-plan-header h1 {
@@ -242,4 +224,23 @@ footer p {
 .get-started-btn {
 	width: 100%;
 	text-align: center;
+}
+
+/******* Footer CSS *******/
+
+footer {
+	padding: 50px;
+	background-color: black;
+	text-align: center;
+}
+footer h1 {
+	color: gray;
+	padding-bottom: 20px;
+}
+footer h1 span {
+	color: orange;
+}
+footer p {
+	padding-bottom: 10px;
+	color: white;
 }
